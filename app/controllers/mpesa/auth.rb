@@ -4,8 +4,8 @@ require "json"
 
 def access_token
     begin
-      consumer_key="QXG84meTYW1PA4XnFJmWCOYf4qHZOJjo"
-      consumer_secret="c5I1R3TwglBAcQeN"
+      consumer_key="rhQj0jYmx5W2ixLXUj9bz9Oykax60xfP"
+      consumer_secret="aBgQE1oMeRjkUOG0"
       
       enc=Base64.strict_encode64("#{consumer_key}:#{consumer_secret}")
 
