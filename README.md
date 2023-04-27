@@ -63,3 +63,23 @@ This application is licensed under the MIT License. See the LICENSE file for det
 
 Contributions are welcome. To contribute to this project, please fork the repository, create a new branch, make your changes, and submit a pull request.1.
 
+
+
+
+# in mpesa_express.rb, 
+
+put your phone number in this method at the last line 
+mpesa_express(1, phone_no_here)
+in the terminal, cd to this folder:
+/mpesa/app/controllers/mpesa/
+and then enter ruby mpesa_express.rb
+
+# Ikiwa successful itafanya stk push
+
+
+
+# On the React Frontend
+
+Just have a route yenye ita call an action, 
+that action will call the mpesa method(passing the phone an amount), 
+utakua unamake requests to that endpoint kama untaka kumake a payment, unaeza add the phone and amount kama body ama params, [get request ama a post request]
